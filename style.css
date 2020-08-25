@@ -1,0 +1,59 @@
+body {
+  background-color: 	#7e31c1;
+}
+
+h1 {
+text-align: center;
+font-size: 60px;
+}
+
+.intro {
+text-align: center;
+font-size: 30px;
+font-weight: normal;
+font-family: Invasion2000;
+}
+
+.Header {
+  text-align: center;
+  font-family: Invasion2000;
+}
+
+.hobby {
+  text-align: center;
+  font-size: 30px;
+  font-family: Invasion2000;
+}
+
+.list {
+  text-align: center;
+  font-size: 30px;
+  font-family: Invasion2000;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius: 50%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #2413bf;
+}
+
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #2413bf;
+}
+
+img {
+  display: block;
+  margin-left: 230px;
+}
