@@ -55,5 +55,6 @@ video {
 
 img {
   display: block;
-  margin-left: 450px;
+  margin-left: auto;
+  margin-right: auto;
 }
