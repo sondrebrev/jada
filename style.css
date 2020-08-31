@@ -1,5 +1,5 @@
 body {
-  background-color: 	#FC9BFE  ;
+  background-color: 	#D52AD1  ;
 }
 
 h1 {
@@ -11,25 +11,25 @@ font-size: 60px;
 text-align: center;
 font-size: 30px;
 font-weight: normal;
-font-family: Invasion2000;
+font-family: impact;
 }
 
 .Header {
   text-align: center;
-  font-family: Invasion2000;
+  font-family: impact;
   color: black;
 }
 
 .hobby {
   text-align: center;
   font-size: 30px;
-  font-family: Invasion2000;
+  font-family: impact;
 }
 
 .list {
   text-align: center;
   font-size: 30px;
-  font-family: Invasion2000;
+  font-family: impact;
 }
 
 .image {
@@ -40,7 +40,7 @@ font-family: Invasion2000;
   border-radius: 50%;
   border-width: 5px;
   border-style: solid;
-  border-color: #2413bf;
+  border-color: #15C4EA;
 }
 
 video {
@@ -51,7 +51,7 @@ video {
   border-radius: 10px;
   border-style: solid;
   border-width: 5px;
-  border-color: #2413bf;
+  border-color: #15C4EA;
 }
 
 .jegertrøtt {
@@ -71,12 +71,41 @@ video {
   100% {left:0px; top:0px;}
 }
 
-a {
-  color: tomato;
-}
-
-.link {
+a.link {
   font-weight: bold;
   font-size: 50px;
-  color: #1234;
+  color: #15C4EA;
+  text-align: center;
+}
+
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: impact;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #0576FA;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {float: none;}
 }
