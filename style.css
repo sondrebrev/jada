@@ -65,17 +65,18 @@ video {
 
 @keyframes example {
   0%   {left:0px; top:0px;}
-  25%  {left:200px; top:0px;}
-  50%  {left:200px; top:200px;}
-  75%  {left:0px; top:200px;}
-  100% {left:0px; top:0px;}
+  20%  {left:200px; top:0px;}
+  30%  {left: 0px; top: 0px;}
+  50%  {right:0px; top:0px;}
+  80%  {right: 200px; top: 0px;}
+  90%  {right: 0px; top: 0px;}
 }
 
 a.link {
   font-weight: bold;
   font-size: 50px;
   color: #15C4EA;
-  text-align: center;
+  text-align:
 }
 
 body {margin: 0;}
