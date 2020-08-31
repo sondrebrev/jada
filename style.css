@@ -1,5 +1,5 @@
 body {
-  background-color: 	#6103b3;
+  background-color: 	#FC9BFE  ;
 }
 
 h1 {
@@ -17,6 +17,7 @@ font-family: Invasion2000;
 .Header {
   text-align: center;
   font-family: Invasion2000;
+  color: black;
 }
 
 .hobby {
@@ -71,5 +72,11 @@ video {
 }
 
 a {
-color: tomato;
+  color: tomato;
+}
+
+.link {
+  font-weight: bold;
+  font-size: 50px;
+  color: #1234;
 }
