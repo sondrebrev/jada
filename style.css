@@ -128,6 +128,7 @@ ul.topnav li.right {float: right;}
   ul.topnav li.right,
   ul.topnav li {float: none;}
 }
+
 .site-footer
 {
   background-color:#26272b;
@@ -290,4 +291,9 @@ ul.topnav li.right {float: right;}
     margin-right:0;
     font-weight:600
   }
+}
+
+.copyright { 
+  width: 500; height: 200;
+
 }
